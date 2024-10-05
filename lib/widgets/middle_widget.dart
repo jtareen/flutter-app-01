@@ -9,49 +9,46 @@ class MiddleWidget extends StatelessWidget {
       children: [
         Stack(
           children: [
-            // Red background
             Container(
               height: 375,
             ),
-            // Positioned blue container
             Positioned(
-              left: 25, // Position it to the left
+              left: 25,
               top: 50,
               child: Container(
                 width: 150,
                 height: 150,
                 decoration: BoxDecoration(
-                    color: Colors.blue, // Background color
+                    color: Colors.blue,
                     border: Border.all(
-                      color: Colors.black, // Outline color
-                      width: 2, // Outline width
+                      color: Colors.black,
+                      width: 2,
                     )),
               ),
             ),
-            // Additional widgets can go here
             Positioned(
-                left: 125, // Change this value to adjust position
-                top: 25, // Change this value to adjust position
+                left: 125,
+                top: 25,
                 child: Container(
                   width: 80,
                   height: 80,
                   decoration: BoxDecoration(
-                      color: Colors.green, // Background color
+                      color: Colors.green,
                       border: Border.all(
-                        color: Colors.black, // Outline color
-                        width: 2, // Outline width
+                        color: Colors.black,
+                        width: 2,
                       )),
                 )),
             Positioned(
               left: 170,
-              top: 75, // Position it on the right side
+              top: 75,
               child: Container(
                 width: 50,
                 decoration: BoxDecoration(
-                    color: Colors.red, // Background color
+                    color: Colors.red,
                     border: Border.all(
-                      color: Colors.black, // Outline color
-                      width: 2, // Outline width
+                      color: Colors.black,
+                      width: 2,
                     )),
                 child: const Column(
                   mainAxisAlignment: MainAxisAlignment.center,
@@ -84,7 +81,7 @@ class MiddleWidget extends StatelessWidget {
             padding: EdgeInsets.all(20.0),
             child: Text(
               'PRACTICE MORE THAN THIS. IT WILL HELP YOU TO DESIGN COMPLEX MOBILE APP DESIGN.',
-              textAlign: TextAlign.center, // Centering the text
+              textAlign: TextAlign.center,
             ))
       ],
     );

@@ -6,7 +6,7 @@ class BottomWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      color: Colors.green, // Background color
+      color: Colors.green,
       padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 40),
       child: const Row(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -21,8 +21,8 @@ class BottomWidget extends StatelessWidget {
             ),
           ),
           CircleAvatar(
-            radius: 40, // Adjust the size of the circle
-            backgroundImage: AssetImage('../assets/image02.jpg'), // Your image
+            radius: 40,
+            backgroundImage: AssetImage('../assets/image02.jpg'),
           ),
           Text(
             'TRAILING',

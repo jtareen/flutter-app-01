@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'widgets/TopWidget.dart';
-import 'widgets/MiddleWidget.dart';
-import 'widgets/BottomWidget.dart';
+import 'widgets/top_widget.dart';
+import 'widgets/middle_widget.dart';
+import 'widgets/bottom_widget.dart';
 
 void main() => runApp(const MyApp());
 
